@@ -381,7 +381,7 @@ function createBot(client) {
     minecraftbot.addChatPattern('anarchyvnshop', /<(.+)> (?:og.anarchyvnshop|!anarchyvnshop)/, { parse: true });
     minecraftbot.on('chat:lolishop', async () => {
         const randomnum = await random()
-        minecraftbot.chat(`> Loli shop kit | discord.gg/dkrZXtGVH4 | ${randomnum}`);
+        minecraftbot.chat(`> Loli | ${randomnum}`);
     });
 }
 
