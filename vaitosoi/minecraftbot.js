@@ -136,7 +136,7 @@ function createBot(client) {
             //     })
             // }, ms(`5m`));
             setInterval(() => {
-                minecraftbot.chat(`> Loli shop kit | discord.gg/dkrZXtGVH4`);
+                minecraftbot.chat(`> HMGTTSHOP | discord.gg/5kQHYad37X`);
             }, ms(`5m`));
         }
         const embed1 = new MessageEmbed()
@@ -310,10 +310,10 @@ function createBot(client) {
         if (message.channel.id === livechat) {
             if (message.author.id === ownerid) {
                 message.react('✔');
-                minecraftbot.chat(`> [${message.author.tag}] ${message.content} | Mun`);
+                minecraftbot.chat(`> [${message.author.tag}] ${message.content} | HMGTT`);
             } else if (message.author.id === developer) {
                 message.react('✔');
-                minecraftbot.chat(`> [${message.author.tag}] ${message.content} | HungChannels_TV`);
+                minecraftbot.chat(`> [${message.author.tag}] ${message.content} | HMGTT`);
             } else if (message.member.roles.cache.has('')) {
                 const randomnum = await random()
                 message.react('✔');
@@ -381,7 +381,7 @@ function createBot(client) {
     minecraftbot.addChatPattern('anarchyvnshop', /<(.+)> (?:og.anarchyvnshop|!anarchyvnshop)/, { parse: true });
     minecraftbot.on('chat:lolishop', async () => {
         const randomnum = await random()
-        minecraftbot.chat(`> Loli | ${randomnum}`);
+        minecraftbot.chat(`> Loli  | Loli | ${randomnum}`);
     });
 }
 
